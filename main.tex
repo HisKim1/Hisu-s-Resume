@@ -1,0 +1,71 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\input{header}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{comment}
+     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+ \end{tabular*}
+\end{comment}
+
+\begin{center}
+\textbf{\Huge \scshape Hisu Kim} \\ \vspace{3pt}
+\href{mailto:tomm1203@gm.gist.ac.kr}{\underline{tomm1203@gm.gist.ac.kr}} $|$ \href{https://scholar.google.com/citations?user=4z2u1DIAAAAJ}{\underline{Google Scholar}} $|$ \href{https://hiskim1.github.io/}{\underline{hiskim1.github.io}}\\
+% \vspace{8pt}
+% \textit{\large M.S. student probing the physical consistency and uncertainty of deep-learning weather prediction}
+\end{center}
+
+\section{Education}
+\input{Education}
+%-----------------------------------------
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\section{Publications and Conferences}
+\input{Publication}
+
+\section{Research and Work Experience}
+\input{ResearchExperience}
+
+% \section{Work Experience}
+\input{WorkExperience}
+
+\section{Teaching Experience}
+\input{TeachingExperience}
+
+\section{Professional Development}
+\input{project}
+
+\section{Scholarships and Fundings}
+\input{Scholarship}
+
+% \section{Extracurricular Activities}
+% \input{Extracurricular}
+
+\section{Skills}
+ \begin{tabbing}
+ Programming  \hspace{4 em} \= Python \hspace{23em}  \= (Main) \\
+ \> C/C++, C\#, JavaScript, Bash \> (Intermediate) \\
+ Libraries \> PyTorch (Lightning), JAX, xarray, Dask, zarr \\
+ Tools \> Linux, Git, \LaTeX, NCL, GrADS \\
+ Language \> Korean (native) \\
+ \> English (fluent) \\
+ \> Spanish, Polish (elementary) \\
+ \end{tabbing}
+\end{document}
